@@ -19,8 +19,8 @@ export const metadata: Metadata = {
     "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
   openGraph: {
     type: "website",
-    url: "https://calebbenjamin.com",
-    title: "Caleb Benjamin",
+    url: "https://portfolio-olive-sigma-66.vercel.app/",
+    title: "Salvation Chigereoka",
     description:
       "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
     images: [
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Caleb Benjamin",
+    title: "Salvation Chigereoka",
     description:
       "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
     images: [
