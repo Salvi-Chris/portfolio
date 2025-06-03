@@ -14,15 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Caleb Benjamin",
+  title: "Salvation Chigereoka",
   description:
-    "Frontend developer, an optimist, passionate about optimization, Startups and Founders.",
+    "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
   openGraph: {
     type: "website",
-    url: "https://calebbenjamin.vercel.app",
+    url: "https://calebbenjamin.com",
     title: "Caleb Benjamin",
     description:
-      "Frontend developer, an optimist, passionate about optimization, Startups and Founders.",
+      "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
     images: [
       {
         url: "https://res.cloudinary.com/calebcloud/image/upload/v1742071730/WhatsApp_Image_2025-03-15_at_21.46.23_fca5f021_ammmlp.jpg",
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Caleb Benjamin",
     description:
-      "Frontend developer, an optimist, passionate about optimization, Startups and Founders.",
+      "Product Manager | Operations Manager | Executive Administrator | Writer and Community Builder",
     images: [
       {
         url: "https://res.cloudinary.com/calebcloud/image/upload/v1742071730/WhatsApp_Image_2025-03-15_at_21.46.23_fca5f021_ammmlp.jpg",
@@ -66,7 +66,7 @@ export default function RootLayout({
     <html lang="en">
       <Analytics />
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-800 text-zinc-100`}>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-200 text-zinc-800 py-20`}>
         {children}
       </body>
     </html>

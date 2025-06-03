@@ -11,10 +11,10 @@ const UserProfile = () => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, amount: 0.5 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
-      className="lg:w-60 lg:h-60 w-50 h-50 rounded-full border-4 border-white relative overflow-hidden"
+      className="lg:w-60 lg:h-60 w-50 h-50 lg:mx-0 mx-auto rounded-full border-8 border-pink-400 relative overflow-hidden"
     >
       <Image
-        src="/caleb benjamin profile image.jpg"
+        src="/salvation-profile.jpeg"
         alt="Caleb Benjamin Profile Image"
         width={600}
         height={600}

@@ -13,9 +13,10 @@ const fadeIn = {
 const ProjectSections = () => {
   return (
     <section className="mb-10 mt-20">
-      <h2 className="font-bold text-3xl mb-6">
+      <h2 className="font-bold text-3xl mb-6">🟠 My journey</h2>
+      {/* <h2 className="font-bold text-3xl mb-6">
         🟠 What I&apos;ve Built So Far
-      </h2>
+      </h2> */}
       <div className="space-y-20">
         {projects.map((project, i) => (
           <motion.div
@@ -44,15 +45,15 @@ const ProjectSections = () => {
             </div>
             <h2 className="font-bold text-xl my-2">{project?.title}</h2>
             <div className="flex items-center space-x-2">
-              <span className="text-white">Role:</span>
+              <span className="">Role:</span>
               <p className="text-lg font-bold">{project?.role}</p>
             </div>
             {/* <p>{project?.summary}</p> */}
             <div className="mt-2 flex flex-wrap gap-2">
               Tech:{" "}
-              {project?.stack?.map((stack, i) => (
+              {project?.tools?.map((tool, i) => (
                 <p key={i} className="font-bold">
-                  {stack}
+                  {tool}
                 </p>
               ))}
             </div>

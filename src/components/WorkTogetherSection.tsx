@@ -35,9 +35,9 @@ const WorkTogetherSection = () => {
         variants={fadeIn}
         custom={0}
       >
-        🔥 Let&apos;s Work Together
+        Let&apos;s Work Together
       </motion.h2>
-      <motion.p className="text-zinc-200" variants={fadeIn} custom={1}>
+      <motion.p variants={fadeIn} custom={1}>
         I am always open to new opportunities and collaborations. If you have a
         project in mind or just want to chat, feel free to reach out!
       </motion.p>
@@ -46,17 +46,17 @@ const WorkTogetherSection = () => {
           {
             icon: <PiAddressBookLight />,
             label: "View Resume",
-            link: "https://docs.google.com/document/d/1qvTTISaTxDKUW28W3yrvFIP3QHlZpNW5T7kNXeRh-f0/edit?usp=sharing",
+            link: "https://docs.google.com/document/d/1ZFBJwit-gGlVqj9bGqRoqdaHLf-8rOUeCrFlEYMSY4c/edit?tab=t.0",
           },
           {
             icon: <TfiEmail />,
             label: "Send a Message",
-            link: "mailto:calebbenjin@gmail.com",
+            link: "mailto:salvichrisng@gmail.com",
           },
           {
             icon: <AiOutlineLinkedin />,
             label: "LinkedIn",
-            link: "https://www.linkedin.com/in/calebbenjin/",
+            link: "https://www.linkedin.com/in/salvation-chigereoka",
           },
           // {
           //   icon: <FaWhatsapp />,

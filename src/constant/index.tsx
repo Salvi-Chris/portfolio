@@ -1,112 +1,121 @@
 export const projects = [
   {
-    slug: "aquatrack-case-study",
-    role: "Senior Frontend Engineer",
-    title: "Aquatrack – Fish Farm Management SaaS",
-    siteurl: "https://www.aquatrackinc.com",
-    proimg: [
-      { url: "/Aquatrack-apps.png" },
-      { url: "/Aquatrack-app-dashboard.png" },
-    ],
+    slug: "eachblock-case-study",
+    role: "Product Manager & Business Operations Lead",
+    title:
+      "Eachblock – Business Operations & Product Manager for Startups and MVPs",
+    siteurl: "https://www.eachblock.xyz",
+    proimg: [],
     achivement: "What I Did:",
-    stack: [
-      "Next.js",
-      "Shadcn",
-      "Tailwind CSS",
-      "React Hooks",
-      "Redux Toolkit",
-      "TypeScript",
-      "React-Chart",
+    tools: [
+      "Figma",
+      "Trello",
+      "Jira",
+      "Google Suites",
+      "Notion",
+      "Slack",
+      "WhatsApp",
     ],
     summary:
-      "Aquatrack is a fish farm management software that helps farmers trac and manage fish farm batches, ponds, inventory, sales during harvest, and handle accurate calculations similar to an Excel sheet.",
+      "EachBlock is a startup support agency offering full-cycle business operations, lean product strategy, and launch services to early-stage founders.",
 
     tasks: [
       {
         title:
-          "Built responsive interfaces for pond tracking, batch management, harvest sales, and inventory.",
+          "Led product strategy, MVP development, and team execution across 4+ startup projects.",
       },
       {
         title:
-          "Created Excel-style data tables for cost tracking, profit/loss calculations, and sales reporting.",
+          "Facilitated daily standups, sprint planning, and retrospectives with engineers and designers.",
       },
       {
         title:
-          "Integrated Firebase Firestore and Auth for real-time data sync and secure access.",
+          "Managed onboarding flows for clients and translated insights into user stories and documentation.",
+      },
+      {
+        title:
+          "Oversaw financial operations including budgeting, invoicing, and vendor management.",
+      },
+      {
+        title:
+          "Built systems for project tracking, admin workflows, and delivery using Notion and Google Suites.",
       },
     ],
 
     impact: [
       {
-        title:
-          "Helped fish farmers track production and reduce manual bookkeeping.",
-      },
-      {
-        title: "Used by 300+ farms in Nigeria to digitize operations.",
+        title: "Delivered MVPs for 4+ startups.",
       },
       {
         title:
-          "Improved farm management efficiency by 40% through streamlined data tracking and reporting.",
+          "Helped non-technical founders launch by simplifying tech execution.",
+      },
+      {
+        title:
+          "Built a lean agency model focused on founder-first delivery and scalability.",
       },
     ],
   },
 
   {
-    slug: "yogaexperience-africa-case-study",
-    role: "Senior Frontend Engineer",
-    title: "Yoga Experience Africa – Wellness & Event Platform",
-    siteurl: "https://www.yogaexperiences.africa",
-    proimg: [{ url: "/yea-mockup.png" }, { url: "/Yea-web-admin.png" }],
+    slug: "aquatrack-case-study",
+    role: "Product Manager | Project under Eachblock",
+    title: "Aquatrack – Fish Farm Management SaaS",
+    siteurl: "",
+    proimg: [
+      { url: "/Aquatrack-apps.png" },
+      { url: "/Aquatrack-app-dashboard.png" },
+    ],
     achivement: "What I Did:",
-    stack: [
-      "Next.js",
-      "Shadcn",
-      "Tailwind CSS",
-      "React Hooks",
-      "Redux Toolkit",
-      "TypeScript",
-      "React-Chart",
-      "Startbutton API",
-      "IP Geolocation AP",
+    tools: [
+      "Figma",
+      "Trello",
+      "Jira",
+      "Google Suites",
+      "Notion",
+      "Slack",
+      "WhatsApp",
     ],
     summary:
-      "Yoga Experience Africa (YEA) is a community-driven platform that connects users with top yoga instructors across Africa, offering live sessions, wellness programs, and event management.",
+      "Aquatrack helps farmers manage fish batches, pond activities, sales, and inventory using digital workflows and real-time data sync.",
 
     tasks: [
       {
         title:
-          "Designed and developed the official event website for YEA, enabling online ticket booking and vendor showcase.",
+          "Defined MVP through interviews with 20+ fish farmers and consultants.",
       },
       {
         title:
-          "Created smooth scroll-based animations and responsive mobile-first layouts using Framer Motion and Tailwind CSS.",
+          "Led a cross-functional team to build modules for batch management, inventory, and harvest.",
+      },
+      {
+        title: "Created internal product docs and user onboarding workflows.",
       },
       {
         title:
-          "Collaborated directly with event organizers to build an experience-focused interface matching the brand identity.",
+          "Managed product roadmap, user stories, sprints, QA, and UI iterations.",
       },
     ],
 
     impact: [
       {
-        title:
-          "Helped increase pre-event ticket sales by 65% via intuitive mobile UX and fast-loading landing pages",
+        title: "300+ farms onboarded within 3 months.",
       },
       {
         title:
-          "Platform supported 20+ vendors and 1000+ registered attendees across Africa’s top yoga event.",
+          "Helped digitize manual logs and improve decision-making for farmers.",
       },
       {
         title:
-          "Improved farm management efficiency by 40% through streamlined data tracking and reporting.",
+          "Reduced record-keeping errors by 40% through better data input UX.",
       },
     ],
   },
 
   {
     slug: "trubooker-case-study",
-    role: "Frontend Engineer",
-    title: "TruBooker – Transport Booking Platform",
+    role: "Product Manager | Project under Eachblock",
+    title: "TruBooker – Smart Bus Booking Platform",
     siteurl: "https://www.trubooker.com",
     proimg: [
       { url: "/trubooker1.png" },
@@ -115,93 +124,199 @@ export const projects = [
       { url: "/trubooker3.png" },
     ],
     achivement: "What I Did:",
-    stack: [
-      "Next.js",
-      "Shadcn",
-      "Tailwind CSS",
-      "React Hooks",
-      "Redux Toolkit",
-      "TypeScript",
-      "React-Chart",
-      "GoogleMap API",
+    tools: [
+      "Figma",
+      "Trello",
+      "Jira",
+      "Whimsical",
+      "Google Suites",
+      "Notion",
+      "Calendly",
+      "Slack",
+      "WhatsApp",
+      "Google Maps API",
     ],
     summary:
-      "TruBooker is a transport management platform that allows drivers and public corporations to list vehicles, sell tickets, and manage schedules. The platform also enables agents to earn through referrals and passengers to book tickets with ease.",
+      "TruBooker enables inter-state transport companies to digitize ticketing, scheduling, and multi-role access systems.",
 
     tasks: [
       {
-        title:
-          "Built mobile and web apps for passengers, drivers, agents, and admins.",
+        title: "Supported DUNS, Play Store, App Store setup and deployment.",
       },
       {
         title:
-          "Integrated GPS tracking, real-time scheduling, referral earnings, and ticket sales.",
+          "Led roadmap, user stories, QA, UAT, and launch for driver, passenger, and admin portals.",
       },
       {
         title:
-          "Created reusable UI component systems and implemented form validation, state caching, and API error handling",
+          "Oversaw feature integration: maps, QR scanning, tracking, payments, and referrals.",
       },
       {
         title:
-          "Developed the admin dashboard to manage drivers, trips, finances, and users.",
+          "Managed cross-functional team operations from design to release.",
       },
     ],
 
     impact: [
       {
-        title:
-          "Enabled launch of Nigeria’s first multi-role bus booking platform with 5,000+ monthly active users.",
+        title: "Launched Nigeria’s first multi-role transport SaaS platform.",
       },
       {
-        title: "Reduced booking time from 15 mins (manual) to under 1 minute.",
+        title: "Cut booking time from 15 minutes to under 5.",
+      },
+      {
+        title: "Deployed first smart inter-state bus app with 24/7 support.",
       },
     ],
   },
 
   {
-    slug: "fiatplug-case-study",
-    role: "Frontend Engineer",
-    title: "Fiatplug – Fintech Admin Dashboard",
-    siteurl: "https://www.fiatplug.com",
-    proimg: [
-      { url: "/fiatplug1.png" },
-      { url: "/fiatplug2.png" },
-      { url: "/fiatplug4.png" },
-      { url: "/fiatplug3.png" },
-    ],
+    slug: "yogaexperience-africa-case-study",
+    role: "Product Manager | Project under Eachblock",
+    title: "Yoga Experience Africa – Wellness & Event Platform",
+    siteurl: "https://www.yogaexperiences.africa",
+    proimg: [{ url: "/yea-mockup.png" }, { url: "/Yea-web-admin.png" }],
     achivement: "What I Did:",
-    stack: [
-      "Next.js",
-      "Shadcn",
-      "Tailwind CSS",
-      "React Hooks",
-      "Redux Toolkit",
-      "TypeScript",
-      "React-Chart",
+    tools: [
+      "Figma",
+      "Trello",
+      "Whimsical",
+      "Google Suites",
+      "Notion",
+      "Calendly",
+      "Slack",
+      "WhatsApp",
     ],
     summary:
-      "Fiatplug is a platform that allows users to buy, sell, and manage gift cards while also handling cryptocurrency transactions. My role as the Frontend Engineer focused on building the Admin Dashboard and Landing Page.",
+      "YEA is a wellness event platform for yoga sessions, teacher profiles, and student registrations across Africa.",
 
     tasks: [
       {
-        title:
-          "Designed and implemented interfaces for gift card sales, crypto transactions, and support ticket handling.",
+        title: "Shaped digital-first UX with the YEA team.",
       },
       {
         title:
-          "Built and maintained the landing page and helped with design iterations using Figma files.",
+          "Managed design and mobile-first build of ticketing and teacher onboarding portals.",
       },
       {
-        title: "Integrated user management and customer support chat features.",
+        title: "Oversaw full development strategy, QA, and launch.",
       },
     ],
 
     impact: [
       {
-        title: "Supported onboarding of 1,000+ users in the first month.",
+        title: "Boosted pre-class sales by 50% via mobile optimization.",
       },
       {
-        title: "Improved admin workflow by automating previously manual tasks.",
+        title:
+          "Enabled 200+ students and 20+ instructors to register and manage events.",
+      },
+      {
+        title: "Reduced event admin hours by automating manual workflows.",
+      },
+    ],
+  },
+
+  {
+    slug: "thehub-web3-case-study",
+    role: "Operations Manager",
+    title: "THE HUB – Interoperable 3D Web3 Ecosystem",
+    siteurl: "",
+    proimg: [],
+    achivement: "What I Did:",
+    tools: [
+      "Miro",
+      "Google Suite Workspace",
+      "Hubspot",
+      "Clickup",
+      "Trello",
+      "Monday",
+      "Clockify",
+      "Notion",
+      "Calendly",
+      "Slack",
+      "LinkedIn",
+      "Telegram",
+      "Twitter",
+      "Discord",
+    ],
+    summary:
+      "The Hub is a metaverse-focused Web3 platform where communities connect, collaborate, and create interoperable experiences.",
+
+    tasks: [
+      {
+        title:
+          "Managed async remote ops and team coordination across 3 time zones.",
+      },
+      {
+        title: "Led partnerships with Polygon, Chainlink, Animoca Brands, etc.",
+      },
+      {
+        title:
+          "Built internal SOPs, tracked deliverables, and maintained ops dashboards.",
+      },
+      {
+        title: "Supported investor relations, pitch decks, and grant writing.",
+      },
+    ],
+
+    impact: [
+      {
+        title: "Scaled fully async team and operations.",
+      },
+      {
+        title: "Drove ecosystem visibility via top-tier Web3 partnerships.",
+      },
+      {
+        title: "Helped shape roadmap of a next-gen content platform.",
+      },
+    ],
+  },
+
+  {
+    slug: "thehub-executive-assistant-case-study",
+    role: "Executive & Operations Assistant",
+    title: "THE HUB – Virtual Executive Assistant to CEO",
+    siteurl: "",
+    proimg: [],
+    achivement: "What I Did:",
+    tools: [
+      "Miro",
+      "Google Suite Workspace",
+      "Hubspot",
+      "Clickup",
+      "Trello",
+      "Monday",
+      "Clockify",
+      "Notion",
+      "Calendly",
+      "Slack",
+    ],
+    summary:
+      "Assisted the CEO of a Web3 content platform by managing operations, comms, schedules, and investor assets.",
+
+    tasks: [
+      {
+        title:
+          "Scheduled meetings, managed inboxes, and coordinated CEO’s digital calendar.",
+      },
+      {
+        title:
+          "Helped prep investment materials, partnership proposals, and internal reports.",
+      },
+      {
+        title:
+          "Documented workflows and ensured on-time deliverables across projects.",
+      },
+    ],
+
+    impact: [
+      {
+        title: "Freed up 20+ hours weekly for CEO’s core strategic focus.",
+      },
+      {
+        title:
+          "Ensured smooth coordination across fast-paced Web3 startup efforts.",
       },
     ],
   },

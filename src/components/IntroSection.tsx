@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import UserProfile from "./UserProfile";
 
 // const techStack = [
 //   { name: "JavaScript" },
@@ -51,59 +52,67 @@ const fadeIn = {
 
 const IntroSection = () => {
   return (
-    <motion.section
-      className="mt-6"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: false, amount: 0.3 }}
-      variants={{ visible: { transition: { staggerChildren: 0.08 } } }}
-    >
-      <motion.h1
-        className="text-4xl font-bold mb-8"
-        variants={fadeIn}
-        custom={0}
+    <div>
+      <UserProfile />
+      <motion.section
+        className="mt-6"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.3 }}
+        variants={{ visible: { transition: { staggerChildren: 0.08 } } }}
       >
-        Caleb Benjamin
-      </motion.h1>
-      <motion.h1
-        className="text-xl font-bold mb-2"
-        variants={fadeIn}
-        custom={0}
-      >
-        🧑‍💻 Senior Frontend Engineer | React, TypeScript & Next.js Specialist.
-      </motion.h1>
-      <motion.p variants={fadeIn} custom={1}>
-        I build fast, scalable, and elegant web apps. I’ve launched 5+ products
-        for startups across fintech, logistics, and SaaS turning MVPs into real
-        businesses.
-      </motion.p>
+        <motion.h1
+          className="lg:text-4xl text-2xl font-bold mb-4 lg:text-left text-center"
+          variants={fadeIn}
+          custom={0}
+        >
+          🦋 Salvation Chigereoka
+        </motion.h1>
+        <motion.h1
+          className="lg:text-xl text-lg font-semibold mb-4 lg:text-left text-center"
+          variants={fadeIn}
+          custom={0}
+        >
+          Product Manager | Operations Manager | Executive Administrator |
+          Writer and Community Builder
+        </motion.h1>
+        <motion.p
+          variants={fadeIn}
+          custom={1}
+          className="lg:text-left text-center"
+        >
+          I help startups turn ideas into scalable products, streamline
+          operations, and build sustainable systems for growth. From MVP to
+          market fit — I bridge execution with impact.
+        </motion.p>
 
-      <motion.div className="mt-10" variants={fadeIn} custom={2}>
-        <h2 className="font-bold text-3xl">👱‍♂️ About me</h2>
-        <motion.p variants={fadeIn} custom={1} className="mt-4">
-          I’m Caleb Benjamin, a Senior Frontend Engineer with 6+ years of
-          experience building scalable, user-first web applications using React,
-          TypeScript, and Next.js.
-        </motion.p>
-        <motion.p variants={fadeIn} custom={1} className="mt-4">
-          I’m the founder of EachBlock, a development studio where I’ve led MVP
-          builds and full-scale products for over a dozen startups across
-          Nigeria, Canada, the US, and Europe. I specialize in turning founder
-          ideas into polished, production-ready platforms.
-        </motion.p>
-        <motion.p variants={fadeIn} custom={1} className="mt-4">
-          I’ve mentored 20+ junior devs, collaborated directly with CTOs, and
-          shipped apps used by thousands in fintech, e-commerce, transport, and
-          SaaS. My approach balances clean UI/UX with performance optimization
-          and technical depth.
-        </motion.p>
-        <motion.p variants={fadeIn} custom={1} className="font-bold mt-4">
-          I’m currently open to frontend engineering roles or product-building
-          partnerships let’s build something powerful.
-        </motion.p>
-      </motion.div>
+        <motion.div className="mt-10" variants={fadeIn} custom={2}>
+          <h2 className="font-bold text-3xl">🧑 About me</h2>
+          <motion.p variants={fadeIn} custom={1} className="mt-4">
+            I’m Salvation Chigereoka, a Product and Operations specialist with
+            3+ years of hands-on experience helping startups launch and grow
+            digital products in fintech, SaaS, edtech, and Web3. I thrive at the
+            intersection of product thinking, execution, and strategic
+            operations, transforming ideas into user-validated, revenue-focused
+            platforms.
+          </motion.p>
+          <motion.p variants={fadeIn} custom={1} className="mt-4">
+            As the Business Operations Manager at Eachblock, I’ve led product
+            delivery for over 5 startups, managing cross-functional teams,
+            building MVPs, running user interviews, and shaping go-to-market
+            strategies. My approach combines lean product management with an eye
+            for systems that scale.
+          </motion.p>
+          <motion.p variants={fadeIn} custom={1} className="mt-4">
+            Beyond shipping products, I’ve also worn hats as a community
+            builder, executive assistant to Web3 CEOs, and content writer,
+            building communities, managing internal operations, and driving
+            thought leadership. I’m passionate about simplifying user journeys,
+            clarifying team processes, and making tech more human-centered.
+          </motion.p>
+        </motion.div>
 
-      {/* <motion.div className="mt-8" variants={fadeIn} custom={2}>
+        {/* <motion.div className="mt-8" variants={fadeIn} custom={2}>
         <h2 className="font-bold text-xl">My Stack</h2>
         <div className="flex flex-wrap gap-2 mt-4">
           {techStack?.map((stack, i) => (
@@ -119,7 +128,7 @@ const IntroSection = () => {
         </div>
       </motion.div> */}
 
-      {/* <motion.div
+        {/* <motion.div
         className="mt-8 text-zinc-600"
         variants={fadeIn}
         custom={techStack.length + 3}
@@ -140,7 +149,8 @@ const IntroSection = () => {
           ))}
         </div>
       </motion.div> */}
-    </motion.section>
+      </motion.section>
+    </div>
   );
 };
 
