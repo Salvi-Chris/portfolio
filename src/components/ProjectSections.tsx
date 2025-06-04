@@ -4,6 +4,8 @@ import React from "react";
 import Image from "next/image";
 import { projects } from "@/constant";
 import { motion } from "framer-motion";
+import Link from "next/link";
+import { Button } from "./ui/button";
 
 const fadeIn = {
   hidden: { opacity: 0, y: 40 },
@@ -14,9 +16,6 @@ const ProjectSections = () => {
   return (
     <section className="mb-10 mt-20">
       <h2 className="font-bold text-3xl mb-6">🟠 My journey</h2>
-      {/* <h2 className="font-bold text-3xl mb-6">
-        🟠 What I&apos;ve Built So Far
-      </h2> */}
       <div className="space-y-20">
         {projects.map((project, i) => (
           <motion.div
@@ -36,14 +35,17 @@ const ProjectSections = () => {
                   <Image
                     src={`${image.url}`}
                     alt="project-image"
-                    width={800}
-                    height={400}
-                    className="rounded-lg"
+                    // width={800}
+                    // height={400}
+                    fill
+                    className="rounded-lg object-cover"
                   />
                 </div>
               ))}
             </div>
-            <h2 className="font-bold text-xl my-2">{project?.title}</h2>
+            <h2 className="font-bold lg:text-2xl text-xl my-4">
+              {project?.title}
+            </h2>
             <div className="flex items-center space-x-2">
               <span className="">Role:</span>
               <p className="text-lg font-bold">{project?.role}</p>
@@ -52,8 +54,8 @@ const ProjectSections = () => {
             <div className="mt-2 flex flex-wrap gap-2">
               Tech:{" "}
               {project?.tools?.map((tool, i) => (
-                <p key={i} className="font-bold">
-                  {tool}
+                <p key={i} className="font-semibold text-sm text-gray-600">
+                  {tool},
                 </p>
               ))}
             </div>
@@ -77,22 +79,24 @@ const ProjectSections = () => {
                 ))}
               </ul>
             </div>
-            {/* <div className="flex space-x-10 pt-2">
-              <Link href={`/case/${project.slug}`} className="flex">
+            <div className="flex space-x-10 pt-6">
+              {/* <Link href={`/case/${project.slug}`} className="flex">
                 <Button className="bg-white text-zinc-900 hover:bg-gray-400">
                   Frontend Case Study
                 </Button>
-              </Link>
-              <Link
-                target="_blank"
-                href={`${project.siteurl}`}
-                className="flex"
-              >
-                <Button className="bg-white text-zinc-900 hover:bg-gray-400">
-                  View Website
-                </Button>
-              </Link>
-            </div> */}
+              </Link> */}
+              {project.siteurl && (
+                <Link
+                  target="_blank"
+                  href={`${project.siteurl}`}
+                  className="flex"
+                >
+                  <Button variant="default" className=" hover:bg-gray-400">
+                    View Website
+                  </Button>
+                </Link>
+              )}
+            </div>
           </motion.div>
         ))}
       </div>

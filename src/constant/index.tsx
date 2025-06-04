@@ -1,11 +1,13 @@
+
+
 export const projects = [
   {
     slug: "eachblock-case-study",
     role: "Product Manager & Business Operations Lead",
     title:
       "Eachblock – Business Operations & Product Manager for Startups and MVPs",
-    siteurl: "https://www.eachblock.xyz",
-    proimg: [],
+    siteurl: "/https://www.eachblock.xyz",
+    proimg: [{ url: "/eachblock.jpeg" }],
     achivement: "What I Did:",
     tools: [
       "Figma",
@@ -61,7 +63,7 @@ export const projects = [
     slug: "aquatrack-case-study",
     role: "Product Manager | Project under Eachblock",
     title: "Aquatrack – Fish Farm Management SaaS",
-    siteurl: "",
+    siteurl: "/https://www.aquatrackinc.com/",
     proimg: [
       { url: "/Aquatrack-apps.png" },
       { url: "/Aquatrack-app-dashboard.png" },
@@ -116,7 +118,7 @@ export const projects = [
     slug: "trubooker-case-study",
     role: "Product Manager | Project under Eachblock",
     title: "TruBooker – Smart Bus Booking Platform",
-    siteurl: "https://www.trubooker.com",
+    siteurl: "/https://www.trubooker.com",
     proimg: [
       { url: "/trubooker1.png" },
       { url: "/trubooker2.png" },
@@ -171,10 +173,69 @@ export const projects = [
   },
 
   {
+    slug: "shecodeafrica-lagos-chapter-case-study",
+    role: "Chapter Lead | Community Manager | Content & Social Media Strategist",
+    title: "SheCodeAfrica Lagos Chapter – Tech Community for Women",
+    siteurl: "/https://shecodeafrica.org/",
+    proimg: [
+      { url: "/sca-photo.jpeg" },
+      { url: "/sca-event.jpeg" },
+      { url: "/sca-photo2.jpeg" },
+      { url: "/sca-event-3.jpeg" },
+    ],
+    achivement: "What I Did:",
+    tools: [
+      "Canva",
+      "LinkedIn",
+      "Facebook",
+      "TikTok",
+      "Twitter",
+      "Instagram",
+      "Notion",
+      "Linktree",
+      "Wix",
+      "Google Suite",
+    ],
+    summary:
+      "Led programming, content, events, and social campaigns for a growing community of women in tech.",
+    tasks: [
+      {
+        title:
+          "Led community programming, mentorship onboarding, and local event planning including STEM-A-Girl initiatives and Bootcamps.",
+      },
+      {
+        title:
+          "Created content plans for social channels, driving awareness and engagement.",
+      },
+      {
+        title:
+          "Managed social media campaigns, partnership comms, and community storytelling.",
+      },
+      {
+        title:
+          "Coordinated workshops, volunteer task delegation, and resource sharing.",
+      },
+    ],
+    impact: [
+      {
+        title: "Helped grow the Lagos community to over 1,000 members.",
+      },
+      {
+        title:
+          "Ran mentorship campaigns that onboarded 50+ women into tech roles.",
+      },
+      {
+        title:
+          "Maintained consistent brand voice while leading a team of volunteers.",
+      },
+    ],
+  },
+
+  {
     slug: "yogaexperience-africa-case-study",
     role: "Product Manager | Project under Eachblock",
     title: "Yoga Experience Africa – Wellness & Event Platform",
-    siteurl: "https://www.yogaexperiences.africa",
+    siteurl: "/https://www.yogaexperiences.africa",
     proimg: [{ url: "/yea-mockup.png" }, { url: "/Yea-web-admin.png" }],
     achivement: "What I Did:",
     tools: [
@@ -221,8 +282,8 @@ export const projects = [
     slug: "thehub-web3-case-study",
     role: "Operations Manager",
     title: "THE HUB – Interoperable 3D Web3 Ecosystem",
-    siteurl: "",
-    proimg: [],
+    siteurl: "/https://www.thehubdao.xyz/",
+    proimg: [{ url: "/thehubdao.jpeg" }],
     achivement: "What I Did:",
     tools: [
       "Miro",
@@ -277,8 +338,8 @@ export const projects = [
     slug: "thehub-executive-assistant-case-study",
     role: "Executive & Operations Assistant",
     title: "THE HUB – Virtual Executive Assistant to CEO",
-    siteurl: "",
-    proimg: [],
+    siteurl: "/https://www.thehubdao.xyz/",
+    proimg: [{ url: "/thehubdao.jpeg" }],
     achivement: "What I Did:",
     tools: [
       "Miro",
@@ -317,6 +378,60 @@ export const projects = [
       {
         title:
           "Ensured smooth coordination across fast-paced Web3 startup efforts.",
+      },
+    ],
+  },
+
+  {
+    slug: "bankless-africa-dao-case-study",
+    role: "Lead Newsletter Writer & Podcast Contributor",
+    title: "Bankless Africa DAO – Web3 Media DAO",
+    siteurl: "/https://www.instagram.com/bankless.africa/",
+    proimg: [{ url: "/bankless-africa.jpeg" }],
+    achivement: "What I Did:",
+    tools: [
+      "Google Suite",
+      "Notion",
+      "Wonderverse",
+      "Crew3",
+      "Mirror",
+      "Substack",
+      "Podbean",
+      "Discord",
+      "Twitter",
+      "Telegram",
+    ],
+    summary:
+      "Wrote newsletters and supported podcast content to help demystify Web3 for African audiences while maintaining brand consistency.",
+    tasks: [
+      {
+        title:
+          "Wrote and edited weekly Web3 newsletters breaking down complex crypto concepts for African readers.",
+      },
+      {
+        title:
+          "Contributed to podcast planning, scripting, and social snippets.",
+      },
+      {
+        title:
+          "Built a Web3 glossary for onboarding newcomers into DeFi, DAOs, and NFTs.",
+      },
+      {
+        title:
+          "Worked with contributors to maintain voice and tone consistency across DAO communications.",
+      },
+    ],
+    impact: [
+      {
+        title: "Grew subscriber base to 1,000+ with 20% open rates.",
+      },
+      {
+        title:
+          "Played a key role in positioning Bankless Africa as a thought leader in African crypto media.",
+      },
+      {
+        title:
+          "Improved reader retention through actionable, jargon-free content.",
       },
     ],
   },

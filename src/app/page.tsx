@@ -1,6 +1,7 @@
 import Footer from "@/components/Footer";
 import IntroSection from "@/components/IntroSection";
 import ProjectSections from "@/components/ProjectSections";
+// import SocialIcon from "@/components/SocialIcon";
 import WorkTogetherSection from "@/components/WorkTogetherSection";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <ProjectSections />
       <WorkTogetherSection />
       <Footer />
+      {/* <SocialIcon /> */}
     </main>
   );
 }

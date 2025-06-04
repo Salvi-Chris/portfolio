@@ -1,4 +1,4 @@
-
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -11,12 +11,12 @@ const Footer = () => {
           <span role="img" aria-label="love" className="text-red-500">
             ❤️
           </span>{" "}
-          by Caleb Benjamin
+          by <Link href="/">Caleb Benjamin</Link>
         </p>
       </div>
       <div className="flex justify-center items-center mt-4">
         <p className="text-sm text-zinc-400">
-          © {currentYear} Caleb Benjamin. All rights reserved.
+          © {currentYear} 🦋 Salvation Chigereoka. All rights reserved.
         </p>
       </div>
     </footer>
